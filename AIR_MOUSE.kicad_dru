@@ -1,0 +1,4 @@
+(version 1)
+(rule "LSM6DSL LGA fine pitch"
+	(condition "A.intersectsCourtyard('U4') || B.intersectsCourtyard('U4')")
+	(constraint clearance (min 0.15mm)))
