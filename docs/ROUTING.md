@@ -97,7 +97,7 @@ U4's third 3V3 pin (pin 12) joins through a short B.Cu link from via (118.8, 122
 ## USB
 
 ### D+ and D− (0.2 mm, side by side)
-The pair stays on F.Cu all the way, with no vias outside the connector area. D+ is always the right-hand track when looking up the board.
+The pair stays on F.Cu all the way, with no vias. D+ is always the right-hand track when looking up the board.
 
 1. **At J1:** USB-C has each signal twice so the plug works both ways round. A7 links to B7 below the pads, and A6 links to B6 above them.
 2. **Past C1:** diagonal to x = 122 / 122.45, passing to the right of C1.
